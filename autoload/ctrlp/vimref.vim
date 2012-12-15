@@ -20,7 +20,7 @@ else
 endif
 
 function! ctrlp#vimref#init()
-  let s = 'foreach\nstrcmp'
+  let s = "foreach\nstrcmp"
 "  redir => s
 "  silent marks
 "  redir END
