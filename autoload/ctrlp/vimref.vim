@@ -20,10 +20,10 @@ else
 endif
 
 function! ctrlp#vimref#init()
-  let s = ''
-  redir => s
-  silent marks
-  redir END
+  let s = 'foreach\nstrcmp'
+"  redir => s
+"  silent marks
+"  redir END
   return split(s, "\n")[1:]
 endfunc
 
